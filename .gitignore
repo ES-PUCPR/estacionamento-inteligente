@@ -1,0 +1,15 @@
+# Credenciais e configurações locais (nunca commitar senhas de Wi-Fi)
+secrets.h
+*.local.h
+
+# Arduino IDE / PlatformIO
+build/
+.pio/
+.vscode/
+*.elf
+*.bin
+*.map
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
