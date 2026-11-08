@@ -169,7 +169,9 @@ O `loop()` não usa `delay()`: cada função executa um pouco e devolve o contro
 | Micro servo motor SG90 9g | 1 | Acionamento da cancela |
 | LED RGB difuso 5 mm, cátodo comum | 6 | Sinalização: verde/vermelho (vagas) e azul (corredor) |
 | Display LCD 16x2 com backlight azul e módulo I2C | 1 | Vagas livres, estado da cancela e mensagens |
-| Protoboard 830 pontos e jumpers (M/F e M/M) | 1 + 40 | Montagem do circuito |
+| Resistores de 100 Ω e de 220 Ω | 10 de cada | Limitação de corrente dos LEDs |
+| Protoboard 830 pontos e jumpers (30 M/F e 52 M/M) | 1 + 82 | Montagem do circuito |
+| Materiais da maquete (isopor, fita, palitos, papel, tesoura) | ver [Custos](#-custos) | Base, paredes e pista |
 
 ### Alimentação
 
@@ -362,7 +364,7 @@ estacionamento-inteligente/
 
 ## 💰 Custos
 
-Lista de materiais (BOM) com os itens já adquiridos em 03/09/26:
+Lista de materiais (BOM). Os itens 01 a 09 foram adquiridos em 03/09/26; os materiais da maquete (14 a 18) foram comprados em 06/11/2026 (cupom fiscal eletrônico da Distribuidora Curitiba de Papéis e Livros S/A).
 
 | # | Item | Qtd. | Preço Unit. (R$) | Preço Total (R$) |
 | --- | --- | --- | --- | --- |
@@ -375,16 +377,26 @@ Lista de materiais (BOM) com os itens já adquiridos em 03/09/26:
 | 07 | LED RGB Difuso 5mm — Cátodo Comum | 6 | 0,80 | 4,80 |
 | 08 | Jumpers Macho/Fêmea, 20 un. | 1 | 4,90 | 4,90 |
 | 09 | Jumpers Macho/Macho, 20 un. | 1 | 4,90 | 4,90 |
-| 10 | Materiais para maquete (base, paredes, pista) *(não comprado)* | A definir | A definir | Estimativa: 30,00 |
+| 10 | Jumpers Macho/Fêmea, 10 un. | 1 | 9,00 | 9,00 |
+| 11 | Jumpers Macho/Macho, 32 un. | 1 | 7,26 | 7,26 |
+| 12 | Resistores 100 Ω, 10 un. | 1 | 2,00 | 2,00 |
+| 13 | Resistores 220 Ω, 10 un. | 1 | 2,00 | 2,00 |
+| 14 | Placa de isopor 20 mm | 1 | 15,60 | 15,60 |
+| 15 | Fita de empacotamento | 1 | 9,40 | 9,40 |
+| 16 | Tesoura escolar | 1 | 19,90 | 19,90 |
+| 17 | Palitos para sorvete | 1 | 11,10 | 11,10 |
+| 18 | Papel sulfite 40 kg | 1 | 12,50 | 12,50 |
 
 | Resumo | Valor (R$) |
 | --- | --- |
-| Subtotal dos itens comprados (01–09) | 171,75 |
-| Frete | 13,70 |
+| Subtotal dos itens 01–09 | 171,75 |
+| Frete (itens 01–09) | 13,70 |
 | **Consolidado com frete (itens 01–09)** | **185,45** |
-| Custo total estimado da solução (com frete e estimativa do item 10) | ≈ 215,45 |
+| Itens complementares (10–13): jumpers e resistores | 20,26 |
+| Materiais da maquete (14–18) | 68,50 |
+| **Custo total da solução** | **274,21** |
 
-> **Nota:** o item 10 (materiais da maquete) ainda não foi adquirido; o valor será atualizado quando a equipe definir fornecedor e valor exato.
+> **Nota:** o frete dos itens 10 a 13 não foi informado e não está incluído no total.
 
 ---
 
